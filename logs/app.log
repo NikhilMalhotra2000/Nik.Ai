@@ -1,0 +1,204 @@
+2025-11-19T09:22:19.908Z info: Health check endpoint called
+2025-11-19T11:04:24.839Z info: Health check endpoint called
+2025-11-19T11:07:46.918Z info: Health check endpoint called
+2025-11-20T06:40:13.743Z info: Connecting to MongoDB...
+2025-11-20T06:40:14.234Z error: MongoServerError: bad auth : authentication failed
+    at Connection.sendCommand (D:\node\nik.ai\node_modules\mongodb\src\cmap\connection.ts:559:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Connection.command (D:\node\nik.ai\node_modules\mongodb\src\cmap\connection.ts:633:22)
+    at continueScramConversation (D:\node\nik.ai\node_modules\mongodb\src\cmap\auth\scram.ts:187:13)
+    at executeScram (D:\node\nik.ai\node_modules\mongodb\src\cmap\auth\scram.ts:114:3)
+    at ScramSHA1.auth (D:\node\nik.ai\node_modules\mongodb\src\cmap\auth\scram.ts:60:12)
+    at performInitialHandshake (D:\node\nik.ai\node_modules\mongodb\src\cmap\connect.ts:164:7)
+    at connect (D:\node\nik.ai\node_modules\mongodb\src\cmap\connect.ts:43:5)
+2025-11-20T06:41:36.354Z info: Connecting to MongoDB...
+2025-11-20T06:41:36.849Z error: MongoServerError: bad auth : authentication failed
+    at Connection.sendCommand (D:\node\nik.ai\node_modules\mongodb\src\cmap\connection.ts:559:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Connection.command (D:\node\nik.ai\node_modules\mongodb\src\cmap\connection.ts:633:22)
+    at continueScramConversation (D:\node\nik.ai\node_modules\mongodb\src\cmap\auth\scram.ts:187:13)
+    at executeScram (D:\node\nik.ai\node_modules\mongodb\src\cmap\auth\scram.ts:114:3)
+    at ScramSHA1.auth (D:\node\nik.ai\node_modules\mongodb\src\cmap\auth\scram.ts:60:12)
+    at performInitialHandshake (D:\node\nik.ai\node_modules\mongodb\src\cmap\connect.ts:164:7)
+    at connect (D:\node\nik.ai\node_modules\mongodb\src\cmap\connect.ts:43:5)
+2025-11-20T06:42:27.712Z info: Connecting to MongoDB...
+2025-11-20T06:42:28.110Z error: MongoServerError: bad auth : authentication failed
+    at Connection.sendCommand (D:\node\nik.ai\node_modules\mongodb\src\cmap\connection.ts:559:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Connection.command (D:\node\nik.ai\node_modules\mongodb\src\cmap\connection.ts:633:22)
+    at continueScramConversation (D:\node\nik.ai\node_modules\mongodb\src\cmap\auth\scram.ts:187:13)
+    at executeScram (D:\node\nik.ai\node_modules\mongodb\src\cmap\auth\scram.ts:114:3)
+    at ScramSHA1.auth (D:\node\nik.ai\node_modules\mongodb\src\cmap\auth\scram.ts:60:12)
+    at performInitialHandshake (D:\node\nik.ai\node_modules\mongodb\src\cmap\connect.ts:164:7)
+    at connect (D:\node\nik.ai\node_modules\mongodb\src\cmap\connect.ts:43:5)
+2025-11-20T06:43:28.811Z info: Connecting to MongoDB...
+2025-11-20T06:43:29.303Z error: MongoServerError: bad auth : authentication failed
+    at Connection.sendCommand (D:\node\nik.ai\node_modules\mongodb\src\cmap\connection.ts:559:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Connection.command (D:\node\nik.ai\node_modules\mongodb\src\cmap\connection.ts:633:22)
+    at continueScramConversation (D:\node\nik.ai\node_modules\mongodb\src\cmap\auth\scram.ts:187:13)
+    at executeScram (D:\node\nik.ai\node_modules\mongodb\src\cmap\auth\scram.ts:114:3)
+    at ScramSHA1.auth (D:\node\nik.ai\node_modules\mongodb\src\cmap\auth\scram.ts:60:12)
+    at performInitialHandshake (D:\node\nik.ai\node_modules\mongodb\src\cmap\connect.ts:164:7)
+    at connect (D:\node\nik.ai\node_modules\mongodb\src\cmap\connect.ts:43:5)
+2025-11-20T06:43:49.999Z info: Connecting to MongoDB...
+2025-11-20T06:43:50.400Z error: MongoServerError: bad auth : authentication failed
+    at Connection.sendCommand (D:\node\nik.ai\node_modules\mongodb\src\cmap\connection.ts:559:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Connection.command (D:\node\nik.ai\node_modules\mongodb\src\cmap\connection.ts:633:22)
+    at continueScramConversation (D:\node\nik.ai\node_modules\mongodb\src\cmap\auth\scram.ts:187:13)
+    at executeScram (D:\node\nik.ai\node_modules\mongodb\src\cmap\auth\scram.ts:114:3)
+    at ScramSHA1.auth (D:\node\nik.ai\node_modules\mongodb\src\cmap\auth\scram.ts:60:12)
+    at performInitialHandshake (D:\node\nik.ai\node_modules\mongodb\src\cmap\connect.ts:164:7)
+    at connect (D:\node\nik.ai\node_modules\mongodb\src\cmap\connect.ts:43:5)
+2025-11-20T06:44:36.558Z info: Connecting to MongoDB...
+2025-11-20T06:44:37.041Z error: MongoServerError: bad auth : authentication failed
+    at Connection.sendCommand (D:\node\nik.ai\node_modules\mongodb\src\cmap\connection.ts:559:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Connection.command (D:\node\nik.ai\node_modules\mongodb\src\cmap\connection.ts:633:22)
+    at continueScramConversation (D:\node\nik.ai\node_modules\mongodb\src\cmap\auth\scram.ts:187:13)
+    at executeScram (D:\node\nik.ai\node_modules\mongodb\src\cmap\auth\scram.ts:114:3)
+    at ScramSHA1.auth (D:\node\nik.ai\node_modules\mongodb\src\cmap\auth\scram.ts:60:12)
+    at performInitialHandshake (D:\node\nik.ai\node_modules\mongodb\src\cmap\connect.ts:164:7)
+    at connect (D:\node\nik.ai\node_modules\mongodb\src\cmap\connect.ts:43:5)
+2025-11-20T06:46:53.804Z info: Connecting to MongoDB...
+2025-11-20T06:46:54.503Z error: MongoServerError: bad auth : authentication failed
+    at Connection.sendCommand (D:\node\nik.ai\node_modules\mongodb\src\cmap\connection.ts:559:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Connection.command (D:\node\nik.ai\node_modules\mongodb\src\cmap\connection.ts:633:22)
+    at continueScramConversation (D:\node\nik.ai\node_modules\mongodb\src\cmap\auth\scram.ts:187:13)
+    at executeScram (D:\node\nik.ai\node_modules\mongodb\src\cmap\auth\scram.ts:114:3)
+    at ScramSHA1.auth (D:\node\nik.ai\node_modules\mongodb\src\cmap\auth\scram.ts:60:12)
+    at performInitialHandshake (D:\node\nik.ai\node_modules\mongodb\src\cmap\connect.ts:164:7)
+    at connect (D:\node\nik.ai\node_modules\mongodb\src\cmap\connect.ts:43:5)
+2025-11-20T07:02:56.484Z info: Connecting to MongoDB...
+2025-11-20T07:02:56.506Z info: Server is running on http://localhost:3000
+2025-11-20T07:02:56.941Z info: Connected to MongoDB
+2025-11-20T08:35:34.240Z info: Connecting to MongoDB...
+2025-11-20T08:35:34.258Z info: Server is running on http://localhost:3000
+2025-11-20T08:35:34.812Z info: Connected to MongoDB
+2025-11-20T08:36:18.126Z info: Connecting to MongoDB...
+2025-11-20T08:36:18.147Z info: Server is running on http://localhost:3000
+2025-11-20T08:36:18.541Z info: Connected to MongoDB
+2025-11-20T09:17:38.647Z info: Connecting to MongoDB...
+2025-11-20T09:17:38.661Z info: Initializing session...
+2025-11-20T09:17:38.666Z info: Session initialized
+2025-11-20T09:17:38.672Z info: Server is running on http://localhost:3000
+2025-11-20T09:17:39.046Z info: Connected to MongoDB
+2025-11-20T09:20:55.702Z info: Connecting to MongoDB...
+2025-11-20T09:20:55.714Z info: Initializing session...
+2025-11-20T09:20:55.717Z info: Session initialized
+2025-11-20T09:20:55.723Z info: Server is running on http://localhost:3000
+2025-11-20T09:20:56.154Z info: Connected to MongoDB
+2025-11-20T09:25:30.001Z info: Connecting to MongoDB...
+2025-11-20T09:25:30.016Z info: Initializing session...
+2025-11-20T09:25:30.022Z info: Session initialized
+2025-11-20T09:25:30.027Z info: Server is running on http://localhost:3000
+2025-11-20T09:25:30.438Z info: Connected to MongoDB
+2025-11-20T09:26:28.475Z error: Unexpected error type caught in ErrorHandler middleware
+2025-11-20T09:26:28.504Z error: Error: Cannot read properties of undefined (reading 'regenerate')
+    at globalExceptionHandler (d:\node\nik.ai\src\core\middlewares\exceptionHandler.ts:11:17)
+    at Layer.handleError (D:\node\nik.ai\node_modules\router\lib\layer.js:116:17)
+    at trimPrefix (D:\node\nik.ai\node_modules\router\index.js:340:13)
+    at D:\node\nik.ai\node_modules\router\index.js:297:9
+    at processParams (D:\node\nik.ai\node_modules\router\index.js:582:12)
+    at Immediate.next (D:\node\nik.ai\node_modules\router\index.js:291:5)
+    at Immediate._onImmediate (D:\node\nik.ai\node_modules\router\index.js:688:15)
+    at process.processImmediate (node:internal/timers:478:21)
+2025-11-20T09:26:58.572Z info: Connecting to MongoDB...
+2025-11-20T09:26:58.583Z info: Initializing session...
+2025-11-20T09:26:58.586Z info: Session initialized
+2025-11-20T09:26:58.591Z info: Server is running on http://localhost:3000
+2025-11-20T09:26:59.023Z info: Connected to MongoDB
+2025-11-20T09:27:07.054Z error: Unexpected error type caught in ErrorHandler middleware
+2025-11-20T09:27:07.056Z error: Error: Cannot read properties of undefined (reading 'regenerate')
+    at globalExceptionHandler (d:\node\nik.ai\src\core\middlewares\exceptionHandler.ts:11:17)
+    at Layer.handleError (D:\node\nik.ai\node_modules\router\lib\layer.js:116:17)
+    at trimPrefix (D:\node\nik.ai\node_modules\router\index.js:340:13)
+    at D:\node\nik.ai\node_modules\router\index.js:297:9
+    at processParams (D:\node\nik.ai\node_modules\router\index.js:582:12)
+    at Immediate.next (D:\node\nik.ai\node_modules\router\index.js:291:5)
+    at Immediate._onImmediate (D:\node\nik.ai\node_modules\router\index.js:688:15)
+    at process.processImmediate (node:internal/timers:478:21)
+2025-11-20T09:29:32.881Z info: Connecting to MongoDB...
+2025-11-20T09:29:33.350Z info: Connected to MongoDB
+2025-11-20T09:29:33.350Z info: Initializing session...
+2025-11-20T09:29:33.356Z info: Session initialized
+2025-11-20T09:29:33.360Z info: Server is running on http://localhost:3000
+2025-11-20T09:29:38.908Z error: Unexpected error type caught in ErrorHandler middleware
+2025-11-20T09:29:38.910Z error: Error: Cannot read properties of undefined (reading 'regenerate')
+    at globalExceptionHandler (d:\node\nik.ai\src\core\middlewares\exceptionHandler.ts:11:17)
+    at Layer.handleError (D:\node\nik.ai\node_modules\router\lib\layer.js:116:17)
+    at trimPrefix (D:\node\nik.ai\node_modules\router\index.js:340:13)
+    at D:\node\nik.ai\node_modules\router\index.js:297:9
+    at processParams (D:\node\nik.ai\node_modules\router\index.js:582:12)
+    at Immediate.next (D:\node\nik.ai\node_modules\router\index.js:291:5)
+    at Immediate._onImmediate (D:\node\nik.ai\node_modules\router\index.js:688:15)
+    at process.processImmediate (node:internal/timers:478:21)
+2025-11-20T09:47:44.475Z info: Initializing session...
+2025-11-20T09:47:44.488Z info: Session initialized
+2025-11-20T09:47:44.895Z info: Connecting to MongoDB...
+2025-11-20T09:47:45.368Z info: Connected to MongoDB
+2025-11-20T09:47:45.372Z info: Server is running on http://localhost:3000
+2025-11-20T09:50:04.793Z info: Initializing session...
+2025-11-20T09:50:04.805Z info: Session initialized
+2025-11-20T09:50:05.258Z info: Connecting to MongoDB...
+2025-11-20T09:50:05.744Z info: Connected to MongoDB
+2025-11-20T09:50:05.747Z info: Server is running on http://localhost:3000
+2025-11-20T10:11:10.206Z info: Initializing session...
+2025-11-20T10:11:10.217Z info: Session initialized
+2025-11-20T10:11:10.618Z info: Connecting to MongoDB...
+2025-11-20T10:11:11.126Z info: Connected to MongoDB
+2025-11-20T10:11:11.129Z info: Server is running on http://localhost:3000
+2025-11-20T10:12:05.489Z info: Session generated
+2025-11-20T10:14:26.069Z info: Session generated
+2025-11-20T10:18:16.819Z info: Session generated
+2025-11-20T10:27:16.341Z info: Initializing session...
+2025-11-20T10:27:16.353Z info: Session initialized
+2025-11-20T10:27:16.941Z info: Connecting to MongoDB...
+2025-11-20T10:27:17.407Z info: Connected to MongoDB
+2025-11-20T10:27:17.409Z info: Server is running on http://localhost:3000
+2025-11-20T10:27:25.595Z info: Session generated
+2025-11-20T10:28:56.545Z info: Initializing session...
+2025-11-20T10:28:56.558Z info: Session initialized
+2025-11-20T10:28:56.936Z info: Connecting to MongoDB...
+2025-11-20T10:28:57.421Z info: Connected to MongoDB
+2025-11-20T10:28:57.424Z info: Server is running on http://localhost:3000
+2025-11-20T10:29:00.502Z info: Session generated
+2025-11-20T10:29:44.061Z info: Initializing session...
+2025-11-20T10:29:44.072Z info: Session initialized
+2025-11-20T10:29:44.503Z info: Connecting to MongoDB...
+2025-11-20T10:29:44.871Z info: Connected to MongoDB
+2025-11-20T10:29:44.874Z info: Server is running on http://localhost:3000
+2025-11-20T10:29:47.879Z info: Session generated
+2025-11-20T10:30:31.993Z info: Initializing session...
+2025-11-20T10:30:32.005Z info: Session initialized
+2025-11-20T10:30:32.381Z info: Connecting to MongoDB...
+2025-11-20T10:30:32.836Z info: Connected to MongoDB
+2025-11-20T10:30:32.839Z info: Server is running on http://localhost:3000
+2025-11-20T10:30:36.901Z info: Session generated
+2025-11-20T10:30:36.902Z info: {"cookie":{"originalMaxAge":86400000,"expires":"2025-11-21T10:30:36.870Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"},"metaData":{"ip":"::1"}}
+2025-11-20T10:33:15.339Z info: Session generated
+2025-11-20T10:33:15.339Z info: {"cookie":{"originalMaxAge":86400000,"expires":"2025-11-21T10:33:15.300Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"},"metaData":{"ip":"::1"}}
+2025-11-20T10:38:12.528Z info: Initializing session...
+2025-11-20T10:38:12.540Z info: Session initialized
+2025-11-20T10:38:13.020Z info: Connecting to MongoDB...
+2025-11-20T10:38:13.580Z info: Connected to MongoDB
+2025-11-20T10:38:13.583Z info: Server is running on http://localhost:3000
+2025-11-20T10:38:23.197Z info: Session created, MongoStore
+2025-11-20T10:38:23.197Z info: Session generated
+2025-11-20T10:38:23.197Z info: {"cookie":{"originalMaxAge":86400000,"expires":"2025-11-21T10:38:23.160Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"},"metaData":{"ip":"::1"}}
+2025-11-20T10:38:50.298Z info: Initializing session...
+2025-11-20T10:38:50.311Z info: Session initialized
+2025-11-20T10:38:50.760Z info: Connecting to MongoDB...
+2025-11-20T10:38:51.154Z info: Connected to MongoDB
+2025-11-20T10:38:51.156Z info: Server is running on http://localhost:3000
+2025-11-20T10:38:53.180Z info: Session created, IMxfdQY-WxPUcDHpVLFAPA_TQc4jPFJj
+2025-11-20T10:38:53.180Z info: Session generated
+2025-11-20T10:38:53.181Z info: {"cookie":{"originalMaxAge":86400000,"expires":"2025-11-21T10:38:53.148Z","secure":false,"httpOnly":true,"path":"/","sameSite":"lax"},"metaData":{"ip":"::1"}}
+2025-11-20T10:39:57.085Z info: Initializing session...
+2025-11-20T10:39:57.096Z info: Session initialized
+2025-11-20T10:39:57.526Z info: Connecting to MongoDB...
+2025-11-20T10:39:57.981Z info: Connected to MongoDB
+2025-11-20T10:39:57.984Z info: Server is running on http://localhost:3000
+2025-11-20T11:15:32.485Z info: Destroying session

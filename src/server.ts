@@ -1,10 +1,15 @@
 import app from "./app.js";
+import { connectDB } from "./config/db.js";
 import ENV from "./config/env.js";
+import logger from "./config/logger.js";
+import { initSession } from "./config/session.js";
 
-const PORT = ENV.port || 3000;
+const PORT = ENV.PORT || 3000;
+
+await connectDB();
 
 app.listen(PORT, () => {
-    console.log(`Server is running on http://localhost:${PORT}`);
+    logger.info(`Server is running on http://localhost:${PORT}`);
 }).on("error", (err: Error) => {
-    console.error("Failed to start server:", err);
+    logger.error("Failed to start server:", err);
 });

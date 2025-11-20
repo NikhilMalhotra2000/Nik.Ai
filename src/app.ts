@@ -6,6 +6,7 @@ import { corsMiddleware } from "./config/cors.js";
 import ApiResponse from "./core/types/Api.Response.js";
 import { StatusCodes } from "http-status-codes";
 import routes from "./routes.js";
+import { initSession } from "./config/session.js";
 
 const app = express();
 
@@ -21,6 +22,10 @@ app.use(corsMiddleware);
 //body parser
 app.use(express.json());
 
+//session
+await initSession(app);
+
+
 app.get("/health", (req, res) => {
     logger.info("Health check endpoint called");
     ApiResponse.sendSuccess(res, StatusCodes.OK, { status: "OK" });
@@ -28,10 +33,6 @@ app.get("/health", (req, res) => {
 
 
 app.use("/api", routes);
-
-
-
-
 
 
 app.use(globalExceptionHandler); //global exception handler
